@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A3A94E1BB26941007E767C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3A94D1BB26941007E767C /* main.m */; };
+		18A3A9511BB26941007E767C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3A9501BB26941007E767C /* AppDelegate.m */; };
+		18A3A9541BB26941007E767C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3A9531BB26941007E767C /* ViewController.m */; };
+		18A3A9571BB26941007E767C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A3A9551BB26941007E767C /* Main.storyboard */; };
+		18A3A9591BB26941007E767C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A3A9581BB26941007E767C /* Assets.xcassets */; };
+		18A3A95C1BB26941007E767C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A3A95A1BB26941007E767C /* LaunchScreen.storyboard */; };
+		18A3A9671BB26941007E767C /* RollViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3A9661BB26941007E767C /* RollViewDemoTests.m */; };
+		18A3A9721BB26942007E767C /* RollViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3A9711BB26942007E767C /* RollViewDemoUITests.m */; };
+		18A3A9841BB26A37007E767C /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18A3A9811BB26A37007E767C /* 0.jpg */; settings = {ASSET_TAGS = (); }; };
+		18A3A9851BB26A37007E767C /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18A3A9821BB26A37007E767C /* 1.jpg */; settings = {ASSET_TAGS = (); }; };
+		18A3A9861BB26A37007E767C /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18A3A9831BB26A37007E767C /* 2.jpg */; settings = {ASSET_TAGS = (); }; };
+		18A3A9891BB27702007E767C /* RollRotary.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3A9881BB27702007E767C /* RollRotary.m */; settings = {ASSET_TAGS = (); }; };
+		18A3A98E1BB29CDB007E767C /* load.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18A3A98D1BB29CDB007E767C /* load.jpg */; settings = {ASSET_TAGS = (); }; };
+		4ABC43F06BA7B3DFD9D46B41 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6631608814D4BBC3D742C0E /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A3A9631BB26941007E767C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A3A9411BB26941007E767C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A3A9481BB26941007E767C;
+			remoteInfo = RollViewDemo;
+		};
+		18A3A96E1BB26942007E767C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A3A9411BB26941007E767C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A3A9481BB26941007E767C;
+			remoteInfo = RollViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		124C595E2647B7BA1613F4AE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		18A3A9491BB26941007E767C /* RollViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RollViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A3A94D1BB26941007E767C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18A3A94F1BB26941007E767C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18A3A9501BB26941007E767C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18A3A9521BB26941007E767C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18A3A9531BB26941007E767C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18A3A9561BB26941007E767C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18A3A9581BB26941007E767C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A3A95B1BB26941007E767C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18A3A95D1BB26941007E767C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A3A9621BB26941007E767C /* RollViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A3A9661BB26941007E767C /* RollViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RollViewDemoTests.m; sourceTree = "<group>"; };
+		18A3A9681BB26942007E767C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A3A96D1BB26942007E767C /* RollViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A3A9711BB26942007E767C /* RollViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RollViewDemoUITests.m; sourceTree = "<group>"; };
+		18A3A9731BB26942007E767C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A3A9811BB26A37007E767C /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		18A3A9821BB26A37007E767C /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		18A3A9831BB26A37007E767C /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		18A3A9871BB27702007E767C /* RollRotary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollRotary.h; sourceTree = "<group>"; };
+		18A3A9881BB27702007E767C /* RollRotary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollRotary.m; sourceTree = "<group>"; };
+		18A3A98D1BB29CDB007E767C /* load.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = load.jpg; sourceTree = "<group>"; };
+		4B4F54B848E0A6920F391B46 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D6631608814D4BBC3D742C0E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A3A9461BB26941007E767C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABC43F06BA7B3DFD9D46B41 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A3A95F1BB26941007E767C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A3A96A1BB26942007E767C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10D51008D9077F5DCE70612D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				124C595E2647B7BA1613F4AE /* Pods.debug.xcconfig */,
+				4B4F54B848E0A6920F391B46 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		18A3A9401BB26941007E767C = {
+			isa = PBXGroup;
+			children = (
+				18A3A94B1BB26941007E767C /* RollViewDemo */,
+				18A3A9651BB26941007E767C /* RollViewDemoTests */,
+				18A3A9701BB26942007E767C /* RollViewDemoUITests */,
+				18A3A94A1BB26941007E767C /* Products */,
+				10D51008D9077F5DCE70612D /* Pods */,
+				362DBE3C0E54A52C53744809 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18A3A94A1BB26941007E767C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A3A9491BB26941007E767C /* RollViewDemo.app */,
+				18A3A9621BB26941007E767C /* RollViewDemoTests.xctest */,
+				18A3A96D1BB26942007E767C /* RollViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A3A94B1BB26941007E767C /* RollViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				18A3A9801BB26A37007E767C /* resource */,
+				18A3A97F1BB26960007E767C /* RollRotaryView */,
+				18A3A94F1BB26941007E767C /* AppDelegate.h */,
+				18A3A9501BB26941007E767C /* AppDelegate.m */,
+				18A3A9521BB26941007E767C /* ViewController.h */,
+				18A3A9531BB26941007E767C /* ViewController.m */,
+				18A3A9551BB26941007E767C /* Main.storyboard */,
+				18A3A9581BB26941007E767C /* Assets.xcassets */,
+				18A3A95A1BB26941007E767C /* LaunchScreen.storyboard */,
+				18A3A95D1BB26941007E767C /* Info.plist */,
+				18A3A94C1BB26941007E767C /* Supporting Files */,
+			);
+			path = RollViewDemo;
+			sourceTree = "<group>";
+		};
+		18A3A94C1BB26941007E767C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18A3A94D1BB26941007E767C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18A3A9651BB26941007E767C /* RollViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				18A3A9661BB26941007E767C /* RollViewDemoTests.m */,
+				18A3A9681BB26942007E767C /* Info.plist */,
+			);
+			path = RollViewDemoTests;
+			sourceTree = "<group>";
+		};
+		18A3A9701BB26942007E767C /* RollViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18A3A9711BB26942007E767C /* RollViewDemoUITests.m */,
+				18A3A9731BB26942007E767C /* Info.plist */,
+			);
+			path = RollViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		18A3A97F1BB26960007E767C /* RollRotaryView */ = {
+			isa = PBXGroup;
+			children = (
+				18A3A9871BB27702007E767C /* RollRotary.h */,
+				18A3A9881BB27702007E767C /* RollRotary.m */,
+			);
+			name = RollRotaryView;
+			sourceTree = "<group>";
+		};
+		18A3A9801BB26A37007E767C /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				18A3A9811BB26A37007E767C /* 0.jpg */,
+				18A3A98D1BB29CDB007E767C /* load.jpg */,
+				18A3A9821BB26A37007E767C /* 1.jpg */,
+				18A3A9831BB26A37007E767C /* 2.jpg */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		362DBE3C0E54A52C53744809 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6631608814D4BBC3D742C0E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A3A9481BB26941007E767C /* RollViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A3A9761BB26942007E767C /* Build configuration list for PBXNativeTarget "RollViewDemo" */;
+			buildPhases = (
+				B9A7188876C15E15031151AD /* Check Pods Manifest.lock */,
+				18A3A9451BB26941007E767C /* Sources */,
+				18A3A9461BB26941007E767C /* Frameworks */,
+				18A3A9471BB26941007E767C /* Resources */,
+				DCA20683EEFDC93AB9AA8CAC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RollViewDemo;
+			productName = RollViewDemo;
+			productReference = 18A3A9491BB26941007E767C /* RollViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A3A9611BB26941007E767C /* RollViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A3A9791BB26942007E767C /* Build configuration list for PBXNativeTarget "RollViewDemoTests" */;
+			buildPhases = (
+				18A3A95E1BB26941007E767C /* Sources */,
+				18A3A95F1BB26941007E767C /* Frameworks */,
+				18A3A9601BB26941007E767C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A3A9641BB26941007E767C /* PBXTargetDependency */,
+			);
+			name = RollViewDemoTests;
+			productName = RollViewDemoTests;
+			productReference = 18A3A9621BB26941007E767C /* RollViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18A3A96C1BB26942007E767C /* RollViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A3A97C1BB26942007E767C /* Build configuration list for PBXNativeTarget "RollViewDemoUITests" */;
+			buildPhases = (
+				18A3A9691BB26942007E767C /* Sources */,
+				18A3A96A1BB26942007E767C /* Frameworks */,
+				18A3A96B1BB26942007E767C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A3A96F1BB26942007E767C /* PBXTargetDependency */,
+			);
+			name = RollViewDemoUITests;
+			productName = RollViewDemoUITests;
+			productReference = 18A3A96D1BB26942007E767C /* RollViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A3A9411BB26941007E767C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = xinle.hou;
+				TargetAttributes = {
+					18A3A9481BB26941007E767C = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					18A3A9611BB26941007E767C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 18A3A9481BB26941007E767C;
+					};
+					18A3A96C1BB26942007E767C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 18A3A9481BB26941007E767C;
+					};
+				};
+			};
+			buildConfigurationList = 18A3A9441BB26941007E767C /* Build configuration list for PBXProject "RollViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A3A9401BB26941007E767C;
+			productRefGroup = 18A3A94A1BB26941007E767C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A3A9481BB26941007E767C /* RollViewDemo */,
+				18A3A9611BB26941007E767C /* RollViewDemoTests */,
+				18A3A96C1BB26942007E767C /* RollViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A3A9471BB26941007E767C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A3A9861BB26A37007E767C /* 2.jpg in Resources */,
+				18A3A98E1BB29CDB007E767C /* load.jpg in Resources */,
+				18A3A9841BB26A37007E767C /* 0.jpg in Resources */,
+				18A3A95C1BB26941007E767C /* LaunchScreen.storyboard in Resources */,
+				18A3A9591BB26941007E767C /* Assets.xcassets in Resources */,
+				18A3A9571BB26941007E767C /* Main.storyboard in Resources */,
+				18A3A9851BB26A37007E767C /* 1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A3A9601BB26941007E767C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A3A96B1BB26942007E767C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B9A7188876C15E15031151AD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DCA20683EEFDC93AB9AA8CAC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A3A9451BB26941007E767C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A3A9891BB27702007E767C /* RollRotary.m in Sources */,
+				18A3A9541BB26941007E767C /* ViewController.m in Sources */,
+				18A3A9511BB26941007E767C /* AppDelegate.m in Sources */,
+				18A3A94E1BB26941007E767C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A3A95E1BB26941007E767C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A3A9671BB26941007E767C /* RollViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A3A9691BB26942007E767C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A3A9721BB26942007E767C /* RollViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A3A9641BB26941007E767C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A3A9481BB26941007E767C /* RollViewDemo */;
+			targetProxy = 18A3A9631BB26941007E767C /* PBXContainerItemProxy */;
+		};
+		18A3A96F1BB26942007E767C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A3A9481BB26941007E767C /* RollViewDemo */;
+			targetProxy = 18A3A96E1BB26942007E767C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18A3A9551BB26941007E767C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A3A9561BB26941007E767C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18A3A95A1BB26941007E767C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A3A95B1BB26941007E767C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A3A9741BB26942007E767C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18A3A9751BB26942007E767C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A3A9771BB26942007E767C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 124C595E2647B7BA1613F4AE /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RollViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xinle.hou-163.RollViewDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18A3A9781BB26942007E767C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B4F54B848E0A6920F391B46 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RollViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xinle.hou-163.RollViewDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18A3A97A1BB26942007E767C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RollViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xinle.hou-163.RollViewDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollViewDemo.app/RollViewDemo";
+			};
+			name = Debug;
+		};
+		18A3A97B1BB26942007E767C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RollViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xinle.hou-163.RollViewDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollViewDemo.app/RollViewDemo";
+			};
+			name = Release;
+		};
+		18A3A97D1BB26942007E767C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RollViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xinle.hou-163.RollViewDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RollViewDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18A3A97E1BB26942007E767C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RollViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xinle.hou-163.RollViewDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RollViewDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A3A9441BB26941007E767C /* Build configuration list for PBXProject "RollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A3A9741BB26942007E767C /* Debug */,
+				18A3A9751BB26942007E767C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A3A9761BB26942007E767C /* Build configuration list for PBXNativeTarget "RollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A3A9771BB26942007E767C /* Debug */,
+				18A3A9781BB26942007E767C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A3A9791BB26942007E767C /* Build configuration list for PBXNativeTarget "RollViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A3A97A1BB26942007E767C /* Debug */,
+				18A3A97B1BB26942007E767C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A3A97C1BB26942007E767C /* Build configuration list for PBXNativeTarget "RollViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A3A97D1BB26942007E767C /* Debug */,
+				18A3A97E1BB26942007E767C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A3A9411BB26941007E767C /* Project object */;
+}
